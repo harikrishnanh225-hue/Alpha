@@ -28,7 +28,7 @@ services:
       # Do not modify this value after it's generated!
       # If you do, you'll lose access to all credentials
       # encrypted with the previous value.
-      - key: N8N_ENCRYPTION_KEY
+      - key: WEBHOOK_URL
         generateValue: https://n8n-service-hfpb.onrender.com
 
       # These automatically populate connection details 
