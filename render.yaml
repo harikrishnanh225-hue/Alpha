@@ -21,7 +21,8 @@ services:
     # All environment variables defined below are required!
     #
     # You can define additional environment variables as needed.
-    envVars:
+    envVars:key: DB_TYPE
+        value: postgresdb
       # Generates a base64-encoded key for
       # encrypting credentials in n8n
       #
