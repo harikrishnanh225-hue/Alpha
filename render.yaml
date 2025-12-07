@@ -29,7 +29,7 @@ services:
       # If you do, you'll lose access to all credentials
       # encrypted with the previous value.
       - key: WEBHOOK_URL
-        generateValue: https://n8n-service-hfpb.onrender.com
+        generateValue: https://n8n-service-hfpb.onrender.com/
 
       # These automatically populate connection details 
       # for the Render Postgres database defined below
